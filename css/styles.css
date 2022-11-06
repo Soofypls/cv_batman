@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+main {
+    margin-bottom: 128px;
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing: 16px;
+    background-color: #c4c4c4;
+    color: #005677;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.personales span:first-child {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.academica table {
+  margin-left: 19px;  
+}
+.academica td:first-child {
+    font-weight: bold;
+    vertical-align: text-top;
+}
+.academica td {
+    padding-bottom: 1rem;
+}
+
+.experiencia .fila {
+    border: 1px solid black;
+    margin-left: 19px;
+}
+
+.experiencia .fila div {
+    display: inline-block;
+    border: 2px solid red;
+}
